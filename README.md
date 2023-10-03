@@ -1,3 +1,3 @@
 # basic-calculator
 
-Finished basic calculator project.
+Finished basic calculator project for practice.

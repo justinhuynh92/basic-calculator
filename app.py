@@ -25,5 +25,22 @@ print("E. Exit")
 #ask for values
 choice = input("input your choice")
 
-#call the functions
+if choice == "a" or choice == "A":
+    print("Addition")
+    a = int(input("input first number:"))
+    b = int(input("input second number:"))
+    #call the functions
+    add(a, b)
+elif choice == "b" or choice == "B":
+    print("Subtraction")
+    a = int(input("input first number:"))
+    b = int(input("input second number:"))
+elif choice == "c" or choice == "C":
+    print("Multiplication")
+    a = int(input("input first number:"))
+    b = int(input("input second number:"))
+elif choice == "d" or choice == "D":
+    print("Division")
+    a = int(input("input first number:"))
+    b = int(input("input second number:"))
 #while loop to continue the program until the user wants to exit
